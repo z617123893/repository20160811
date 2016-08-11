@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app01.myandroid1.Activity_Kcxx">
+<!--课程信息-->
+    <LinearLayout android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical"
+        android:background="@color/color1"
+        >
+        <ImageView
+            android:layout_height="90dp"
+            android:contentDescription="@string/app_name"
+            android:layout_width="wrap_content"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/t2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:textSize="25sp"
+            android:textColor="@color/write"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/kclist"
+        android:padding="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@id/linear1"
+
+        >
+
+
+    </ListView>
+</RelativeLayout>

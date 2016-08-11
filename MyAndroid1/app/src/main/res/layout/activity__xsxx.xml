@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app01.myandroid1.Activity_Xsxx">
+    <!--查询学生信息-->
+    <LinearLayout android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical"
+        android:background="@color/color1"
+        >
+        <ImageView
+            android:layout_height="90dp"
+            android:contentDescription="@string/app_name"
+            android:layout_width="wrap_content"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/t3"
+            android:layout_marginTop="20dp"
+            android:textSize="25sp"
+            android:textColor="@color/write"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="90dp"
+        android:paddingStart="40dp"
+        android:paddingBottom="80dp"
+        android:gravity="center_horizontal"
+        android:paddingEnd="40dp"
+        android:layout_below="@id/linear1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/t11"
+            android:textSize="22sp"
+           android:textColor="@color/color1"/>
+        <EditText
+            android:id="@+id/name"
+            android:layout_height="33dp"
+            android:layout_width="150dp"
+            android:padding="5dp"
+            android:inputType="text"
+            android:background="@drawable/xsxx2"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/xsBut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/liner2"
+        android:textColor="@color/write"
+        android:background="@drawable/radius_tcxt"
+        android:layout_centerHorizontal="true"
+        android:text="@string/t12"/>
+</RelativeLayout>

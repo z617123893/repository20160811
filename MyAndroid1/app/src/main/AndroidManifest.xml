@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app01.myandroid1">
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".myActivity1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Bz_activity" />
+        <activity android:name=".Activity_Cxjg" />
+        <activity android:name=".Activity_Cxjg2" />
+        <activity android:name=".Activity_Kcxx" />
+        <activity android:name=".Activity_tcxt" />
+        <activity android:name=".Activity_Xsxx" />
+        <activity android:name=".Activity_Xxbh" />
+        <activity android:name=".Activity_xxkc" />
+        <activity android:name=".Activity_xxtj" />
+        <activity android:name=".Activity_kcxx2"></activity><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

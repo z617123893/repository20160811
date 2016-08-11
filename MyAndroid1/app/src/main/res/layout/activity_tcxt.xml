@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app01.myandroid1.Activity_tcxt">
+    <!--退出系统-->
+    <LinearLayout android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical"
+        android:background="@color/color1"
+        >
+        <ImageView
+            android:layout_height="90dp"
+            android:contentDescription="@string/app_name"
+            android:layout_width="wrap_content"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/t6"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:textSize="25sp"
+            android:textColor="@color/write"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/con"
+        android:layout_below="@id/linear1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="90dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/t8"
+            android:textSize="22sp"
+            android:background="@drawable/radius_tcxt"
+            android:textColor="@color/write"
+            />
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="45dp"
+            android:textSize="22sp"
+            android:background="@drawable/radius_tcxt"
+            android:textColor="@color/write"
+            android:text="@string/t9"/>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="35dp"
+            android:textSize="22sp"
+            android:background="@drawable/radius_tcxt"
+            android:textColor="@color/write"
+            android:text="@string/t10"/>
+
+    </LinearLayout>
+</RelativeLayout>

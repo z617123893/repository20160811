@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app01.myandroid1.myActivity1">
+<!--主页-->
+    <LinearLayout android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical"
+        android:background="@color/color1"
+        >
+        <ImageView
+            android:layout_height="90dp"
+            android:contentDescription="@string/app_name"
+            android:layout_width="wrap_content"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ziti"/>
+
+        </LinearLayout>
+<!--222-->
+    <LinearLayout android:id="@+id/con"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+       android:paddingTop="30dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="60dp"
+        android:layout_below="@id/linear1"
+        >
+        <LinearLayout android:id="@+id/l1"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:onClick="setLinerClick">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:layout_height="25dp"
+                android:src="@drawable/xxkc"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:text="@string/t1"
+         android:gravity="center_horizontal"
+                android:textColor="@color/color1"
+                android:textSize="19sp"/>
+
+        </LinearLayout>
+
+
+            <LinearLayout android:id="@+id/l2"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:onClick="setLinerClick">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:layout_height="25dp"
+                    android:src="@drawable/kcxx"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/t2"
+                   android:gravity="center_horizontal"
+                    android:textColor="@color/color1"
+                    android:textSize="19sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/l3"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:onClick="setLinerClick">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:layout_height="25dp"
+                android:src="@drawable/xxkc"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/t3"
+                android:gravity="center_horizontal"
+                android:textColor="@color/color1"
+                android:textSize="19sp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout android:id="@+id/l4"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:onClick="setLinerClick">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:layout_height="25dp"
+                android:src="@drawable/xxkcxx"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/t4"
+               android:gravity="center_horizontal"
+                android:textColor="@color/color1"
+                android:textSize="19sp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout android:id="@+id/l5"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:onClick="setLinerClick">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:layout_height="25dp"
+                android:src="@drawable/bz"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/t5"
+                android:gravity="center_horizontal"
+                android:textColor="@color/color1"
+                android:textSize="19sp"/>
+
+    </LinearLayout>
+    <LinearLayout android:id="@+id/l6"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:contentDescription="@string/app_name"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:onClick="setLinerClick">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:layout_height="25dp"
+            android:src="@drawable/tcxt"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/t6"
+           android:gravity="center_horizontal"
+            android:textColor="@color/color1"
+            android:textSize="19sp"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MyAndroid1</string>
+    <string name="t1">选修课程</string>
+    <string name="t2">课程信息</string>
+    <string name="t3">查询学生信息</string>
+    <string name="t4">课程详细信息</string>
+    <string name="t5">帮助</string>
+    <string name="t6">退出系统</string>
+    <string name="t7">查询结果</string>
+    <string name="t8">是否退出系统?</string>
+    <string name="t9">是</string>
+    <string name="t10">否</string>
+    <string name="t11">姓名:</string>
+    <string name="t12">提交</string>
+    <string name="t13">请选择你要选修课程的标号</string>
+    <string name="t14">提交信息</string>
+    <string name="t15">性别:</string>
+    <string name="t16">年龄:</string>
+    <string name="t17">男</string>
+    <string name="nv">女</string>
+    <string name="t19">添加成功</string>
+    <string name="t20">查看课程详细信息</string>
+    <string name="t21">女</string>
+    <string name="t22">女</string>
+    <string name="t23">女</string>
+</resources>
